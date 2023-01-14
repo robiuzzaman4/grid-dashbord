@@ -28,8 +28,11 @@ body {
     color: var(--light-1);
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    display: grid;
-    place-items: center;  
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;  
 }
 
 /* RE-USEABLE STYLE */
@@ -182,6 +185,18 @@ p.active-cheklist {
 }
 /* DASHBORDE STYLE END */
 
+/* MAIN SECTION STYLE START */
+
+/* ATTRIBUTION STYLE START */
+.attribution {
+    padding-block-end: 2rem;
+}
+.attribution .attribution-link {
+    color: var(--green);
+    text-align: center;
+    text-decoration: none;
+}
+/* ATTRIBUTION STYLE END */
 
 /* ===== RESPONSIVE PART ===== */
 /* BREAK-POINTS ARE COLLECTED FROM BOOTSTRAP-5 */
